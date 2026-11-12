@@ -1,27 +1,30 @@
-# Q3 Campus Energy Audit — Academic Committee Follow-Up Summary
+# Q3 Campus Energy Audit - Committee Follow-Up Summary
 
-**Prepared for:** Academic Committee Meeting
-**Committee meeting date:** November 18, 2026 (Auditorium B, Main Campus)
-**Source:** campus_energy_audit.pdf (Q3 campus energy audit), weekly meter export meter_readings.csv
-**Data project:** BigQuery dataset `facilities_energy`, table `meter_readings` (5 weekly readings, loaded 2026-11-18)
+## Committee Meeting Details
+- **Meeting:** Academic Committee Meeting
+- **Date:** Friday, November 13, 2026
+- **Start Time:** 3:00 PM (Asia/Hong_Kong time)
+- **End Time:** 5:00 PM
+- **Location:** HKUST Conference Room A
+- **Purpose:** Discuss curriculum arrangement and teaching plan for this semester; participants: Department heads
 
-## Total Energy Consumption (Q3)
-
-- **Total kWh across 5 weekly meter readings: 5,630 kWh**
-- **Readings count: 5** (matches the expected 5 weekly readings)
-- **No discrepancy flagged:** loaded totals match the expected export of 5,630 kWh.
-
-## Key Findings (from page 3 of the audit — saved as key_findings.pdf)
-
+## Key Findings (from campus_energy_audit.pdf, Page 3)
 - Peak demand down 18% after chiller retrofit
 - Solar canopy adds 32 kWh per day
 - Night setback saves 4% of baseline load
 
-## Recommended Next Steps for the Committee
+## Q3 Meter Reading Data Summary
+- **Total readings loaded:** 5 weekly meter readings
+- **Total kWh:** 5,630 kWh
+- **Dataset:** `facilities_energy.meter_readings` (BigQuery project: mcp-sync-513611)
+- **Load verification:** Loaded numbers match expectations (5 readings, 5,630 kWh total) - no discrepancies flagged.
 
-1. Review the attached key-findings page (key_findings.pdf) as the formal audit attachment.
-2. Note the 18% peak demand reduction from the chiller retrofit as the headline efficiency win for Q3.
-3. Track the solar canopy's 32 kWh/day contribution in Q4 projections.
-4. Validate the night-setback savings (4% of baseline load) against next quarter's meter data in `facilities_energy.meter_readings`.
+## Recommendations from Audit
+1. Expand night setback to the remaining buildings
+2. Book quarterly inspections of the main panels
 
-*Follow-up owner: Facilities Coordinator. Data verified in BigQuery on 2026-11-18 (5 readings, 5,630 kWh total).*
+## Attachment
+The key-findings page has been saved as `key_findings.pdf` for reference.
+
+---
+*Follow-up prepared for the Academic Committee Meeting on November 13, 2026.*
